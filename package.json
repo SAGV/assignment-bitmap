@@ -1,0 +1,31 @@
+{
+  "name": "bitmap-assignment",
+  "version": "1.0.0",
+  "description": "Finding the closest black point for each white point in 2-dimentional arrays of white-black points",
+  "main": "index.ts",
+  "scripts": {
+    "test": "node node_modules/.bin/mocha",
+    "autotest": "node node_modules/.bin/mocha --inspect=9927 --watch || true"
+  },
+  "author": "Artem Golovin <artem@xtc.vc>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.137",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "lodash": "^4.17.15",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "eslint": "^6.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}

@@ -1,6 +1,11 @@
 import Bitmap from './src/Bitmap'
 import { writeToUserInput, stringToMatrix } from './src/Helpers'
 
+/**
+ * I've made [a video]() with explanations of why this solution is chosen, how it works and why is it faster than what can be found over the web:
+ * https://youtu.be/n8WoFJQkKI8
+ **/
+
 // Start reading from input
 process.stdin.on('readable', () => {
   let bufferOrStr: Buffer | string

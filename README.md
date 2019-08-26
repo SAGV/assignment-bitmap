@@ -2,6 +2,20 @@
 
 The idea is to have a 2-dimensional array filled with white and black pixels. And be able to find the closest distance to a white pixel for each black pixel. You can find more details about the assignment [here](http://code-jedi.chintanghate.me/2014/11/28/bitmap/) (however, do not look on the solution there. It is elegant but quite slow as it appears to be).
 
+## Watch the video first!
+
+I've made [a video](https://youtu.be/n8WoFJQkKI8) with explanations of why this solution is chosen, how it works and why is it faster than what can be found over the web.
+
+* [00:00](https://youtu.be/n8WoFJQkKI8?t=0) — Intro
+* [00:56](https://youtu.be/n8WoFJQkKI8?t=56) — The challenge explained
+* [03:50](https://youtu.be/n8WoFJQkKI8?t=230) — Solutions found around the web
+* [08:25](https://youtu.be/n8WoFJQkKI8?t=505) — Benchmarking my solution vs the one found
+* [11:00](https://youtu.be/n8WoFJQkKI8?t=660) — Validation
+* [13:15](https://youtu.be/n8WoFJQkKI8?t=795) — Input parsing and structure
+* [15:15](https://youtu.be/n8WoFJQkKI8?t=915) — Actual BFS implementation and explanation
+* [18:20](https://youtu.be/n8WoFJQkKI8?t=1100) — Testing and linting
+
+
 ## Prerequirements
 
 1. Make sure you have Node, npm and typescript installed globally. Preferred is Node v10.

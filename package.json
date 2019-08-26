@@ -1,13 +1,13 @@
 {
   "name": "bitmap-assignment",
   "version": "1.0.0",
-  "description": "Finding the closest black point for each white point in 2-dimentional arrays of white-black points",
+  "description": "Find the closest white pixel for each black point in 2-dimensional bitmap of white-black pixels",
   "main": "index.ts",
   "scripts": {
-    "prestart": "npm run compile",
+    "prestart": "npm run build",
     "start": "node ./dist/index.js",
-    "precompile": "rm -rf ./dist/* || true",
-    "compile": "tsc",
+    "prebuild": "rm -rf ./dist/* || true",
+    "build": "tsc",
     "test": "node node_modules/.bin/mocha",
     "autotest": "node node_modules/.bin/mocha --inspect=9927 --watch || true"
   },

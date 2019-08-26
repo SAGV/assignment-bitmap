@@ -4,6 +4,10 @@
   "description": "Finding the closest black point for each white point in 2-dimentional arrays of white-black points",
   "main": "index.ts",
   "scripts": {
+    "prestart": "npm run compile",
+    "start": "node ./dist/index.js",
+    "precompile": "rm -rf ./dist/* || true",
+    "compile": "tsc",
     "test": "node node_modules/.bin/mocha",
     "autotest": "node node_modules/.bin/mocha --inspect=9927 --watch || true"
   },

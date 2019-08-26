@@ -1,6 +1,6 @@
 # Test assignment with BFS and Typescript
 
-The idea is to have a 2-dimensional array filled with white and black pixels. And be able to find the closest distance to a pixel for each black pixel. You can find more details about the assignment [here](http://code-jedi.chintanghate.me/2014/11/28/bitmap/) (however, do not look on the solution there. It is elegant but quite slow as it appears to be).
+The idea is to have a 2-dimensional array filled with white and black pixels. And be able to find the closest distance to a white pixel for each black pixel. You can find more details about the assignment [here](http://code-jedi.chintanghate.me/2014/11/28/bitmap/) (however, do not look on the solution there. It is elegant but quite slow as it appears to be).
 
 ## Prerequirements
 
@@ -26,4 +26,4 @@ Use `testData.txt` to try the program (like `npm run start < testData.txt`) and 
 
 ## Other things to note
 
-This repo is using eslint (with typescript addons), prettier to automatically lint the code.
+This repo is using eslint (with typescript addons) and prettier to automatically lint the code.

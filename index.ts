@@ -13,7 +13,7 @@ process.stdin.on('readable', () => {
 
   // Read file / input or exit if it looks empty
   while ((bufferOrStr = process.stdin.read()) !== null) {
-    str += bufferOrStr.toString().replace(/ /g, '')
+    str += bufferOrStr.toString()
   }
   if (!str) process.exit()
 
